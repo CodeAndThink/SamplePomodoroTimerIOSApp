@@ -12,8 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet private weak var resetCounter: UIButton!
     @IBOutlet private weak var timeCounter: UILabel!
     
-    private let initialTime = 25 * 60
-    private var totalSeconds = 25 * 60
+    private let initialTime = 5 * 60
+    private var totalSeconds = 5 * 60
     private var timerCounter : Timer?
     private var isStartCounting = false
     
